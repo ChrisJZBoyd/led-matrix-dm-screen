@@ -26,7 +26,7 @@ def start_game():
                 attempts += 1
                 attempts_list.append(attempts)
                 print("It took you {} attempts".format(attempts))
-                play_again input("Would you like to play the game again? (Enter Yes/No)")
+                play_again = input("Would you like to play the game again? (Enter Yes/No)")
                 attempts = 0
                 show_score()
                 random_number = int(random.randint(1, 10))
@@ -46,7 +46,7 @@ def start_game():
         print("That's cool, have a good one.")
 if __name__ == '__name__':
     start_game()
-    
+
 
 
 
